@@ -1,0 +1,30 @@
+.panel {
+  position: absolute;
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
+
+#options-container {
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.options {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.options:hover {
+  background-color: #eee;
+}
